@@ -1,0 +1,4229 @@
+{
+  "title": "Gridia Complex Sample \u2014 Ops HQ",
+  "activeSheetId": "37e6c836-57ab-4646-b29c-8790834d1c44",
+  "sheets": [
+    {
+      "id": "37e6c836-57ab-4646-b29c-8790834d1c44",
+      "name": "Dashboard",
+      "rows": 50,
+      "cols": 10,
+      "cells": {
+        "0,0": {
+          "raw": "Gridia Ops HQ",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Montserrat",
+            "fontSize": 20,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "1,0": {
+          "raw": "Q3 performance snapshot \u00b7 sample workbook",
+          "style": {
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "align": "left",
+            "color": "#5f6368",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "0,5": {
+          "raw": "=HYPERLINK(\"https://github.com/oreanroy/pure_in_browser_sheets\",\"Open repo\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,0": {
+          "raw": "Metric",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,1": {
+          "raw": "Actual",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,2": {
+          "raw": "Target",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,3": {
+          "raw": "Variance",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,4": {
+          "raw": "Status",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,0": {
+          "raw": "Revenue",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,1": {
+          "raw": "248500",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,2": {
+          "raw": "240000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,3": {
+          "raw": "=B5-C5",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,4": {
+          "raw": "=IF(D5>=0,\"On track\",\"Watch\")",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,0": {
+          "raw": "Gross margin %",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,1": {
+          "raw": "0.42",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "5,2": {
+          "raw": "0.4",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "5,3": {
+          "raw": "=B6-C6",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "5,4": {
+          "raw": "=IF(D6>=0,\"On track\",\"Watch\")",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,0": {
+          "raw": "Active customers",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,1": {
+          "raw": "1860",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 0
+          }
+        },
+        "6,2": {
+          "raw": "1800",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 0
+          }
+        },
+        "6,3": {
+          "raw": "=B7-C7",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 0
+          }
+        },
+        "6,4": {
+          "raw": "=IF(D7>=0,\"On track\",\"Watch\")",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,0": {
+          "raw": "NPS",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,1": {
+          "raw": "62",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 0
+          }
+        },
+        "7,2": {
+          "raw": "55",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 0
+          }
+        },
+        "7,3": {
+          "raw": "=B8-C8",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 0
+          }
+        },
+        "7,4": {
+          "raw": "=IF(D8>=0,\"On track\",\"Watch\")",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,0": {
+          "raw": "Churn %",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,1": {
+          "raw": "0.028",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "8,2": {
+          "raw": "0.035",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "8,3": {
+          "raw": "=B9-C9",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "8,4": {
+          "raw": "On track",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,0": {
+          "raw": "Pipeline health",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Montserrat",
+            "fontSize": 14,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,0": {
+          "raw": "Open deals",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,1": {
+          "raw": "10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,0": {
+          "raw": "Weighted pipeline",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,1": {
+          "raw": "523650",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "13,0": {
+          "raw": "Avg deal size",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,1": {
+          "raw": "103200",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "14,0": {
+          "raw": "Coverage vs target",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "14,1": {
+          "raw": "=B12/240000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "10,3": {
+          "raw": "Notes",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#fff3cd",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,3": {
+          "raw": "Targets locked after board review (Aug).",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,3": {
+          "raw": "Churn improving vs Q2 (\u221240 bps).",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,3": {
+          "raw": "=HYPERLINK(\"https://example.com/ops-runbook\",\"Ops runbook\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        }
+      },
+      "colWidths": {
+        "0": 160,
+        "1": 110,
+        "2": 110,
+        "3": 110,
+        "4": 100,
+        "5": 140
+      }
+    },
+    {
+      "id": "e6a6fbca-261a-437d-97a1-2f528758fdba",
+      "name": "Budget",
+      "rows": 50,
+      "cols": 10,
+      "cells": {
+        "0,0": {
+          "raw": "Department budget \u00b7 FY2026",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Montserrat",
+            "fontSize": 16,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,0": {
+          "raw": "Department",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,1": {
+          "raw": "Q1",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,2": {
+          "raw": "Q2",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,3": {
+          "raw": "Q3",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,4": {
+          "raw": "Q4",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,5": {
+          "raw": "Annual",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,6": {
+          "raw": "% of total",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#174ea6",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,0": {
+          "raw": "Engineering",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,1": {
+          "raw": "120000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "3,2": {
+          "raw": "125000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "3,3": {
+          "raw": "130000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "3,4": {
+          "raw": "140000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "3,5": {
+          "raw": "=SUM(B4:E4)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "3,6": {
+          "raw": "=F4/F10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "4,0": {
+          "raw": "Product",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,1": {
+          "raw": "45000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,2": {
+          "raw": "48000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,3": {
+          "raw": "52000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,4": {
+          "raw": "55000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,5": {
+          "raw": "=SUM(B5:E5)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,6": {
+          "raw": "=F5/F10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "5,0": {
+          "raw": "Sales",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,1": {
+          "raw": "90000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,2": {
+          "raw": "95000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,3": {
+          "raw": "110000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,4": {
+          "raw": "125000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,5": {
+          "raw": "=SUM(B6:E6)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,6": {
+          "raw": "=F6/F10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "6,0": {
+          "raw": "Marketing",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,1": {
+          "raw": "60000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,2": {
+          "raw": "62000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,3": {
+          "raw": "70000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,4": {
+          "raw": "80000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,5": {
+          "raw": "=SUM(B7:E7)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,6": {
+          "raw": "=F7/F10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "7,0": {
+          "raw": "People",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,1": {
+          "raw": "35000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,2": {
+          "raw": "36000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,3": {
+          "raw": "38000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,4": {
+          "raw": "40000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,5": {
+          "raw": "=SUM(B8:E8)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,6": {
+          "raw": "=F8/F10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "8,0": {
+          "raw": "G&A",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,1": {
+          "raw": "28000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,2": {
+          "raw": "28000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,3": {
+          "raw": "30000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,4": {
+          "raw": "32000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,5": {
+          "raw": "=SUM(B9:E9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,6": {
+          "raw": "=F9/F10",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 1
+          }
+        },
+        "9,0": {
+          "raw": "TOTAL",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "9,1": {
+          "raw": "=SUM(B4:B9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,2": {
+          "raw": "=SUM(C4:C9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,3": {
+          "raw": "=SUM(D4:D9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,4": {
+          "raw": "=SUM(E4:E9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,5": {
+          "raw": "=SUM(F4:F9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,6": {
+          "raw": "1",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#ffffff",
+            "bg": "#1a7340",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "11,0": {
+          "raw": "Headcount plan",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 14,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,0": {
+          "raw": "Role",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#f3f3f3",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,1": {
+          "raw": "Current",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#f3f3f3",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,2": {
+          "raw": "Open reqs",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#f3f3f3",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,3": {
+          "raw": "Fully loaded cost",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#f3f3f3",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,0": {
+          "raw": "Staff engineer",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,1": {
+          "raw": "4",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,2": {
+          "raw": "1",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#fff3cd",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,3": {
+          "raw": "210000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "14,0": {
+          "raw": "Product manager",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "14,1": {
+          "raw": "3",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "14,2": {
+          "raw": "1",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#fff3cd",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "14,3": {
+          "raw": "165000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "15,0": {
+          "raw": "AE (enterprise)",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "15,1": {
+          "raw": "6",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "15,2": {
+          "raw": "2",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#fff3cd",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "15,3": {
+          "raw": "145000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "16,0": {
+          "raw": "Designer",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "16,1": {
+          "raw": "2",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "16,2": {
+          "raw": "1",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#fff3cd",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "16,3": {
+          "raw": "125000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "17,0": {
+          "raw": "Hiring budget impact",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "17,3": {
+          "raw": "=(B14+C14)*D14+(B15+C15)*D15+(B16+C16)*D16+(B17+C17)*D17",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        }
+      },
+      "colWidths": {
+        "0": 140,
+        "1": 100,
+        "2": 100,
+        "3": 100,
+        "4": 100,
+        "5": 110,
+        "6": 100
+      }
+    },
+    {
+      "id": "634a0675-7fe2-44b9-b851-646f5c196fa2",
+      "name": "Deals",
+      "rows": 50,
+      "cols": 10,
+      "cells": {
+        "0,0": {
+          "raw": "Enterprise pipeline",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Montserrat",
+            "fontSize": 16,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "1,0": {
+          "raw": "Filter: stage \u2260 Lost \u00b7 amounts in USD",
+          "style": {
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "align": "left",
+            "color": "#5f6368",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,0": {
+          "raw": "Account",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,1": {
+          "raw": "Owner",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,2": {
+          "raw": "Stage",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,3": {
+          "raw": "Amount",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,4": {
+          "raw": "Prob %",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,5": {
+          "raw": "Weighted",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,6": {
+          "raw": "Close",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,7": {
+          "raw": "Link",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#ffffff",
+            "bg": "#202124",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,0": {
+          "raw": "Northwind Labs",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,1": {
+          "raw": "Asha",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,2": {
+          "raw": "Negotiation",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,3": {
+          "raw": "82000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,4": {
+          "raw": "0.7",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "4,5": {
+          "raw": "=D5*E5",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "4,6": {
+          "raw": "2026-09-15",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/nw\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,0": {
+          "raw": "Blue River Health",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,1": {
+          "raw": "Jon",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,2": {
+          "raw": "Proposal",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,3": {
+          "raw": "54000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,4": {
+          "raw": "0.45",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "5,5": {
+          "raw": "=D6*E6",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "5,6": {
+          "raw": "2026-10-01",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/br\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,0": {
+          "raw": "Cedar Robotics",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,1": {
+          "raw": "Asha",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,2": {
+          "raw": "Discovery",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,3": {
+          "raw": "120000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,4": {
+          "raw": "0.25",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "6,5": {
+          "raw": "=D7*E7",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "6,6": {
+          "raw": "2026-11-12",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/cr\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,0": {
+          "raw": "Helios Energy",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,1": {
+          "raw": "Priya",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,2": {
+          "raw": "Negotiation",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,3": {
+          "raw": "210000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,4": {
+          "raw": "0.6",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "7,5": {
+          "raw": "=D8*E8",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "7,6": {
+          "raw": "2026-09-30",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/he\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,0": {
+          "raw": "Orbit Freight",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,1": {
+          "raw": "Jon",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,2": {
+          "raw": "Closed Won",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,3": {
+          "raw": "67000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,4": {
+          "raw": "1.0",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "8,5": {
+          "raw": "=D9*E9",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "8,6": {
+          "raw": "2026-08-01",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/of\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "9,0": {
+          "raw": "Pixel & Form",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "9,1": {
+          "raw": "Maya",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "9,2": {
+          "raw": "Proposal",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "9,3": {
+          "raw": "38000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,4": {
+          "raw": "0.4",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "9,5": {
+          "raw": "=D10*E10",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "9,6": {
+          "raw": "2026-10-20",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "9,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/pf\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,0": {
+          "raw": "Summit Analytics",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,1": {
+          "raw": "Priya",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,2": {
+          "raw": "Discovery",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,3": {
+          "raw": "95000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "10,4": {
+          "raw": "0.2",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "10,5": {
+          "raw": "=D11*E11",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "10,6": {
+          "raw": "2026-12-05",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/sa\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,0": {
+          "raw": "Kite Payments",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,1": {
+          "raw": "Maya",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,2": {
+          "raw": "Negotiation",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,3": {
+          "raw": "150000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "11,4": {
+          "raw": "0.55",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "11,5": {
+          "raw": "=D12*E12",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "11,6": {
+          "raw": "2026-09-22",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e8f0fe",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/kp\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "#e8f0fe",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,0": {
+          "raw": "Lumen Schools",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,1": {
+          "raw": "Asha",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,2": {
+          "raw": "Closed Won",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,3": {
+          "raw": "41000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "12,4": {
+          "raw": "1.0",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "12,5": {
+          "raw": "=D13*E13",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "12,6": {
+          "raw": "2026-07-18",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "12,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/ls\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,0": {
+          "raw": "Nova Grid",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,1": {
+          "raw": "Jon",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,2": {
+          "raw": "Proposal",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,3": {
+          "raw": "175000",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "13,4": {
+          "raw": "0.35",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "percent",
+            "decimals": 0
+          }
+        },
+        "13,5": {
+          "raw": "=D14*E14",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "13,6": {
+          "raw": "2026-11-01",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": 11,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "13,7": {
+          "raw": "=HYPERLINK(\"https://example.com/deals/ng\",\"Open\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "center",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "15,0": {
+          "raw": "Totals",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "15,3": {
+          "raw": "=SUM(D5:D14)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#f3f3f3",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "15,5": {
+          "raw": "=SUM(F5:F14)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "#e6f4ea",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "16,0": {
+          "raw": "Best case (100%)",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "16,5": {
+          "raw": "=SUM(D5:D14)",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        },
+        "17,0": {
+          "raw": "Commit (\u226560% prob)",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "17,5": {
+          "raw": "=F5+F8+F12+F9",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "currency",
+            "decimals": 2
+          }
+        }
+      },
+      "colWidths": {
+        "0": 150,
+        "1": 80,
+        "2": 110,
+        "3": 100,
+        "4": 80,
+        "5": 110,
+        "6": 110,
+        "7": 70
+      }
+    },
+    {
+      "id": "5210f6ba-dba0-4414-84a2-e8c7609e064a",
+      "name": "Hiring",
+      "rows": 40,
+      "cols": 10,
+      "cells": {
+        "0,0": {
+          "raw": "Hiring scorecard",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Montserrat",
+            "fontSize": 16,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,0": {
+          "raw": "Candidate",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,1": {
+          "raw": "Role",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,2": {
+          "raw": "Location",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,3": {
+          "raw": "Stage",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,4": {
+          "raw": "Score",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,5": {
+          "raw": "Decision",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "2,6": {
+          "raw": "Portfolio",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#c5221f",
+            "bg": "#fce8e6",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,0": {
+          "raw": "Riley Chen",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,1": {
+          "raw": "Staff Eng",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,2": {
+          "raw": "Remote",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,3": {
+          "raw": "Onsite",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,4": {
+          "raw": "4.6",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 1
+          }
+        },
+        "3,5": {
+          "raw": "Advance",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "3,6": {
+          "raw": "=HYPERLINK(\"https://example.com/r\",\"Link\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,0": {
+          "raw": "Sam Okonkwo",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,1": {
+          "raw": "PM",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,2": {
+          "raw": "NYC",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,3": {
+          "raw": "Offer",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,4": {
+          "raw": "4.8",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 1
+          }
+        },
+        "4,5": {
+          "raw": "Offer out",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "4,6": {
+          "raw": "=HYPERLINK(\"https://example.com/s\",\"Link\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,0": {
+          "raw": "Jules Park",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,1": {
+          "raw": "Designer",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,2": {
+          "raw": "SF",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,3": {
+          "raw": "Screen",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,4": {
+          "raw": "3.9",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 1
+          }
+        },
+        "5,5": {
+          "raw": "Hold",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#b06000",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "5,6": {
+          "raw": "=HYPERLINK(\"https://example.com/j\",\"Link\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,0": {
+          "raw": "Alex Rivera",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,1": {
+          "raw": "AE",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,2": {
+          "raw": "Austin",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,3": {
+          "raw": "Onsite",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,4": {
+          "raw": "4.2",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 1
+          }
+        },
+        "6,5": {
+          "raw": "Advance",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "6,6": {
+          "raw": "=HYPERLINK(\"https://example.com/a\",\"Link\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,0": {
+          "raw": "Morgan Lee",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,1": {
+          "raw": "Staff Eng",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,2": {
+          "raw": "Remote",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,3": {
+          "raw": "Reject",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,4": {
+          "raw": "2.8",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 1
+          }
+        },
+        "7,5": {
+          "raw": "Pass",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#c5221f",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "7,6": {
+          "raw": "=HYPERLINK(\"https://example.com/m\",\"Link\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,0": {
+          "raw": "Casey Brooks",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,1": {
+          "raw": "PM",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,2": {
+          "raw": "Remote",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,3": {
+          "raw": "Screen",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,4": {
+          "raw": "4.0",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 1
+          }
+        },
+        "8,5": {
+          "raw": "Advance",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "center",
+            "color": "#1a7340",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "8,6": {
+          "raw": "=HYPERLINK(\"https://example.com/c\",\"Link\")",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "align": "left",
+            "color": "#1155cc",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,0": {
+          "raw": "Average score",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "10,4": {
+          "raw": "=AVERAGE(E4:E9)",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "number",
+            "decimals": 2
+          }
+        },
+        "11,0": {
+          "raw": "Interview load (onsite+offer)",
+          "style": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "align": "left",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        },
+        "11,4": {
+          "raw": "3",
+          "style": {
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "align": "right",
+            "color": "#202124",
+            "bg": "",
+            "fontFamily": "Roboto",
+            "fontSize": 12,
+            "format": "general",
+            "decimals": 2
+          }
+        }
+      },
+      "colWidths": {
+        "0": 130,
+        "1": 100,
+        "2": 90,
+        "3": 90,
+        "4": 70,
+        "5": 100,
+        "6": 80
+      }
+    }
+  ]
+}

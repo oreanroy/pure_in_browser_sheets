@@ -4,9 +4,14 @@
 *.xlsm
 *.xlsb
 
-# OS / editor
+# Allow committed sample workbooks
+!samples/
+!samples/**
+
+# OS / editor / local tooling
 .DS_Store
 Thumbs.db
 *.swp
 .idea/
 .vscode/
+.venv/

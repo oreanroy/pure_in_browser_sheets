@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gridia — Spreadsheet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@400;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect x="2" y="2" width="24" height="24" rx="4" fill="#1a7340"/>
+            <path d="M7 8h14M7 14h14M7 20h14M11 8v12M17 8v12" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <input id="doc-title" class="doc-title" value="Untitled spreadsheet" spellcheck="false" />
+          <div class="file-path-row">
+            <span class="brand-name">Gridia</span>
+            <span class="path-sep">/</span>
+            <select id="file-switcher" class="file-switcher" title="Switch file"></select>
+          </div>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button type="button" class="ghost-btn" id="btn-open" title="Open Excel, CSV, or Gridia JSON">Open</button>
+        <button type="button" class="ghost-btn primary-btn" id="btn-save" title="Save to local file (Ctrl+S)">Save</button>
+        <button type="button" class="ghost-btn" id="btn-save-as" title="Save As…">Save As</button>
+        <button type="button" class="ghost-btn" id="btn-clear" title="Clear sheet">Clear</button>
+        <span class="save-status" id="save-status">Saved in browser</span>
+      </div>
+    </header>
+
+    <nav class="menubar" aria-label="Menu">
+      <button type="button" class="menu-item" data-menu="file">File</button>
+      <button type="button" class="menu-item" data-menu="edit">Edit</button>
+      <button type="button" class="menu-item" data-menu="view">View</button>
+      <button type="button" class="menu-item" data-menu="insert">Insert</button>
+      <button type="button" class="menu-item" data-menu="format">Format</button>
+    </nav>
+
+    <div class="toolbar" role="toolbar" aria-label="Formatting">
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="btn-undo" title="Undo (Ctrl+Z)">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z"/></svg>
+        </button>
+        <button type="button" class="tool-btn" id="btn-redo" title="Redo (Ctrl+Y)">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M18.4 10.6C16.55 8.99 14.15 8 11.5 8c-4.65 0-8.58 3.03-9.96 7.22L3.9 16c1.05-3.19 4.05-5.5 7.6-5.5 1.95 0 3.73.72 5.12 1.88L13 16h9V7l-3.6 3.6z"/></svg>
+        </button>
+      </div>
+      <div class="tool-divider"></div>
+      <div class="tool-group">
+        <select id="font-family" class="tool-select tool-select-font" title="Font">
+          <option value="Arial" style="font-family:Arial">Arial</option>
+          <option value="Roboto" selected style="font-family:Roboto">Roboto</option>
+          <option value="Open Sans" style="font-family:'Open Sans'">Open Sans</option>
+          <option value="Lato" style="font-family:Lato">Lato</option>
+          <option value="Montserrat" style="font-family:Montserrat">Montserrat</option>
+          <option value="Source Sans 3" style="font-family:'Source Sans 3'">Source Sans 3</option>
+          <option value="Merriweather" style="font-family:Merriweather">Merriweather</option>
+          <option value="Georgia" style="font-family:Georgia">Georgia</option>
+          <option value="Times New Roman" style="font-family:'Times New Roman'">Times New Roman</option>
+          <option value="Courier New" style="font-family:'Courier New'">Courier New</option>
+          <option value="Inconsolata" style="font-family:Inconsolata">Inconsolata</option>
+          <option value="Comic Neue" style="font-family:'Comic Neue'">Comic Neue</option>
+        </select>
+        <select id="font-size" class="tool-select" title="Font size">
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12" selected>12</option>
+          <option value="14">14</option>
+          <option value="16">16</option>
+          <option value="18">18</option>
+          <option value="20">20</option>
+          <option value="24">24</option>
+          <option value="28">28</option>
+          <option value="36">36</option>
+        </select>
+      </div>
+      <div class="tool-divider"></div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="btn-bold" title="Bold (Ctrl+B)"><strong>B</strong></button>
+        <button type="button" class="tool-btn" id="btn-italic" title="Italic (Ctrl+I)"><em>I</em></button>
+        <button type="button" class="tool-btn" id="btn-underline" title="Underline (Ctrl+U)"><span class="u">U</span></button>
+        <button type="button" class="tool-btn" id="btn-link" title="Insert link (Ctrl+K)">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3.9 12a5 5 0 0 1 5-5h3v2h-3a3 3 0 0 0 0 6h3v2h-3a5 5 0 0 1-5-5zm7-1h2v2h-2v-2zm4-4h3a5 5 0 0 1 0 10h-3v-2h3a3 3 0 0 0 0-6h-3V7z"/></svg>
+        </button>
+      </div>
+      <div class="tool-divider"></div>
+      <div class="tool-group">
+        <label class="color-tool" title="Text color">
+          <span class="color-letter">A</span>
+          <span class="color-bar" id="text-color-bar"></span>
+          <input type="color" id="text-color" value="#202124" />
+        </label>
+        <label class="color-tool" title="Fill color">
+          <span class="fill-icon"></span>
+          <span class="color-bar" id="fill-color-bar"></span>
+          <input type="color" id="fill-color" value="#ffffff" />
+        </label>
+      </div>
+      <div class="tool-divider"></div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="btn-align-left" title="Align left">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3 3h18v2H3V3zm0 8h12v2H3v-2zm0 8h18v2H3v-2zM3 7h12v2H3V7zm0 8h12v2H3v-2z"/></svg>
+        </button>
+        <button type="button" class="tool-btn" id="btn-align-center" title="Align center">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3 3h18v2H3V3zm4 8h10v2H7v-2zm-4 8h18v2H3v-2zM7 7h10v2H7V7zm0 8h10v2H7v-2z"/></svg>
+        </button>
+        <button type="button" class="tool-btn" id="btn-align-right" title="Align right">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3 3h18v2H3V3zm6 8h12v2H9v-2zm-6 8h18v2H3v-2zm6-12h12v2H9V7zm0 8h12v2H9v-2z"/></svg>
+        </button>
+      </div>
+      <div class="tool-divider"></div>
+      <div class="tool-group">
+        <button type="button" class="tool-btn" id="btn-pct" title="Percent">%</button>
+        <button type="button" class="tool-btn" id="btn-currency" title="Currency">$</button>
+        <button type="button" class="tool-btn" id="btn-decimal-dec" title="Decrease decimals">.0</button>
+        <button type="button" class="tool-btn" id="btn-decimal-inc" title="Increase decimals">.00</button>
+      </div>
+    </div>
+
+    <div class="formula-bar">
+      <div class="name-box" id="name-box">A1</div>
+      <div class="fx-label">fx</div>
+      <input id="formula-input" class="formula-input" spellcheck="false" autocomplete="off" />
+    </div>
+
+    <main class="sheet-area">
+      <div class="grid-scroll" id="grid-scroll" tabindex="0">
+        <div class="sheet-inner" id="sheet-inner">
+          <div class="corner" id="corner"></div>
+          <div class="col-headers" id="col-headers"></div>
+          <div class="row-headers" id="row-headers"></div>
+          <div class="grid" id="grid"></div>
+          <textarea id="cell-editor" class="cell-editor" spellcheck="false" autocomplete="off"></textarea>
+        </div>
+      </div>
+    </main>
+
+    <footer class="sheet-tabs">
+      <button type="button" class="tab-add" id="btn-add-sheet" title="Add sheet">+</button>
+      <div class="tabs" id="sheet-tabs"></div>
+      <div class="status" id="status-bar">Ready</div>
+    </footer>
+  </div>
+
+  <div id="context-menu" class="context-menu hidden" role="menu">
+    <button type="button" data-action="cut">Cut</button>
+    <button type="button" data-action="copy">Copy</button>
+    <button type="button" data-action="paste">Paste</button>
+    <div class="menu-sep"></div>
+    <button type="button" data-action="insert-row-above">Insert row above</button>
+    <button type="button" data-action="insert-row-below">Insert row below</button>
+    <button type="button" data-action="delete-row">Delete row</button>
+    <div class="menu-sep"></div>
+    <button type="button" data-action="insert-col-left">Insert column left</button>
+    <button type="button" data-action="insert-col-right">Insert column right</button>
+    <button type="button" data-action="delete-col">Delete column</button>
+    <div class="menu-sep"></div>
+    <button type="button" data-action="open-link">Open link</button>
+    <button type="button" data-action="insert-link">Insert / edit link…</button>
+    <button type="button" data-action="remove-link">Remove link</button>
+    <div class="menu-sep"></div>
+    <button type="button" data-action="clear-contents">Clear contents</button>
+  </div>
+
+  <div id="dropdown-menu" class="dropdown-menu hidden"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

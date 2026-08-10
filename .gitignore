@@ -1,0 +1,12 @@
+# Local spreadsheet data — never commit
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
